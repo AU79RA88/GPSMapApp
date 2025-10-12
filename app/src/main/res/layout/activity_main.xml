@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF">
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btnDescargarImagenes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir a Descargar Imágenes" />
+
+    <Button
+        android:id="@+id/btnIrAMapas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir a Mapas"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
